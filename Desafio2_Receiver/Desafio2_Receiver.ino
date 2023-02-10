@@ -54,7 +54,6 @@ void loop()
           {
             if (informacaoRecebida[i]==',')
             {
-              //Serial.println("%s: %s\n", dados[d], informacaoPrint);
               Serial.print(dados[d]);
               Serial.print(": ");
               Serial.print(informacaoPrint);
