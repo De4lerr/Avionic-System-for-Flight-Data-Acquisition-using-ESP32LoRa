@@ -12,11 +12,8 @@
 char * read_GPS(void)
 {
   int dia, mes, ano = 0;
-
   int hora, min, seg = 0;
-
   char *lat, *lng = "0.0";
-
   char *hora_S, *min_S, *seg_S, *dia_S, *mes_S, *ano_S = "00";
   
   //Localização
